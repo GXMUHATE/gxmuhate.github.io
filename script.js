@@ -12,10 +12,12 @@ function carregar(){
         document.body.style.background = '#c7beba'
     }else if(hora >= 12 && hora < 18){
         //BOA TARDE
+        msg.innerHTML +=`<br>Boa tarde`
         img.src = 'fototarde.png'
         document.body.style.background = '#cb858c'
     }else{
         //BOA NOITE
+        msg.innerHTML +=`<br>Boa noite`
         img.src = 'fotonoite.png'
         document.body.style.background = '#03545e'
     }
